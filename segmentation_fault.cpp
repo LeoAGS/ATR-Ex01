@@ -4,10 +4,10 @@
 using namespace std;
 
 int main() {
-    //ERRO DE SEGMENTAÇÃO GARANTIDO
-    cout << "Forçando segmentation fault com ponteiro nulo..." << endl;
+    //ERRO DE SEGMENTAÇÃO 
+    cout << "Forçando segmentation fault com ponteiro nulo:" << endl;
     int *ptr = nullptr;
-    cout << *ptr << endl; // Aqui vai falhar!
+    cout << *ptr << endl; // falha
 
     return 0;
 }
